@@ -1,0 +1,15 @@
+[package]
+name = "qrowl"
+version = "0.1.0"
+edition = "2024"
+authors = ["0wlmate <owl.id@proton.me>"]
+description = "A simple QR code generator"
+license = "MIT"
+
+[[bin]]
+name = "qrowl"
+path = "src/main.rs"
+
+[dependencies]
+qrcode = "0.14.1"
+image = "0.25.6"
